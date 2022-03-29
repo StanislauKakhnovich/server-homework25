@@ -5,7 +5,7 @@ module.exports = mongoose => {
       country: String,
       town: String,
       mail: String,
-      password: Number
+      password: String
     },
     { timestamps: true }
   );
